@@ -1,0 +1,1 @@
+export const API = "https://api-crud.elcho.dev/api/v1/34570-2a16b-25b1b/TypeScript"

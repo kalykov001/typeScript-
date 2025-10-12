@@ -1,0 +1,28 @@
+.container {
+  padding-block: 20px;
+  .mainContainer {
+    .register {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      input {
+        max-width: 500px;
+        border-radius: 10px;
+        width: 100%;
+        padding-left: 20px;
+        height: 40px;
+      }
+      .btns {
+        display: flex;
+        gap: 30px;
+        button {
+          padding: 10px 50px;
+          &:hover {
+            background: rgba(128, 128, 128, 0.217);
+          }
+        }
+      }
+    }
+  }
+}

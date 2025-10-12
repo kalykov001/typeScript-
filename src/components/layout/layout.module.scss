@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  .mainContainer {
+    flex: 1;
+  }
+  .moonSun {
+    position: absolute;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    font-size: 25px;
+  }
+  
+}

@@ -2,10 +2,8 @@ import { useState } from "react";
 import Footer from "./footer/Footer";
 import Header from "./header/Header";
 import scss from "./layout.module.scss"
-import { WiMoonAltWaningCrescent6 } from "react-icons/wi";
-import { WiMoonAltWaningGibbous2 } from "react-icons/wi";
-import { FaMoon } from "react-icons/fa";
 import { FaRegMoon } from "react-icons/fa";
+import { IoSunny } from "react-icons/io5";
 
 type ChildrenProps = {
     children: React.ReactNode;
@@ -21,7 +19,7 @@ const Layout = ({children }: ChildrenProps) => {
               }}  className={scss.container}>
               <span className={scss.moonSun} onClick={() => setIsBlack(!isBlack)}>
                         {
-                            !isBlack ? <FaRegMoon/> : <FaMoon/>
+                            !isBlack ? <FaRegMoon/> : <IoSunny/>
                         } 
                        </span>
             <Header/>
